@@ -1,1 +1,4 @@
-Store all your raw data in this directory.
+
+The loading_to_csv.ipynb contains all the raw data for COVID-19 cases in Malaysia for each state. 
+All the raw data was processed and expored to a csv. The csv files can be found data>processed>state_csv_files.
+

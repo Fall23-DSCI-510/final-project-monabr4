@@ -1,1 +1,14 @@
+Required libraries:
 
+import requests
+from datetime import datetime, timedelta
+import pandas as pd
+import json
+import csv 
+import folium
+
+
+
+
+This file lists all the external libraries you have used in your project.
+You can create this file manually or use the following commands in your virtual env:

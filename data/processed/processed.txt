@@ -1,1 +1,34 @@
-Stored all your processed data in this directory.
+COVID-19 (Malaysia)State Level Cases were extracted from an API:
+
+Link: https://covid-19.samsam123.name.my/api.html
+
+The loading_to_csv.ipynb contains the code from the API extraction.
+ Upon extraction amd cleaning, the data was converted into a CSV file for data analysis. 
+
+ Below are the CSV files that were made (stored: data>processed):
+
+
+    - Johor.csv 
+    - Kedah.csv
+    - Kelantan.csv
+    - Melaka.csv
+    - Negeri_Sembilan.csv
+    - Pahang.csv
+    - Perak.csv
+    - Perlis.csv
+    - Pulau Pinang.csv
+    - Sabah.csv
+    - Sarawak.csv
+    - Selangor.csv
+    - Terengganu.csv
+    - W_P_Kuala Lumpur.csv
+    - W_P_Labuan.csv **** REMOVED because this state was not in the shapefile.
+    - W_P_Putrajaya.csv
+
+
+All CSV files above were merged to get the total COVID-19 in Malaysia cases by state
+between January 25, 2020 to January 25, 2023. The merged data is stored as merged_data.csv.
+
+Merged_data.csv will be used to for data analysis.
+
+
