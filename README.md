@@ -1,5 +1,5 @@
 
-COVID-19 in Malaysia 
+** COVID-19 in Malaysia **
 
 Introduction: The analysis focuses on understanding regional disparities in COVID-19 incidence rates across different states (13 states) in Malaysia and explores the impact of the pandemic on various regions in terms of cases and recoveries. It aims to uncover significant variations in how states have been affected. Additionally, the analysis takes a closer look at the correlation between population density in different states and the rate of COVID-19 transmission. By examining how states with diverse population densities have managed the spread of the virus, the analysis aims to uncover insights into the relationship between population density and the pandemic's impact in Malaysia.
 
@@ -9,7 +9,9 @@ Regional Disparities:
 
     -How do COVID-19 incidence rates carry across different states in Malaysia?
     -Are there significant disparities in the impact of the pandemic on various region in terms of case new cases and case recovery? 
+
 Population Density and Transmission
+
     -Is there a correlation between population density in different states and the rate of COVID-19 transmission?
 
 
@@ -31,13 +33,13 @@ This data project can is divided into three folders:
         - state_covid_data.csv
         - final_covid_data.csv
 2. results:
-    -covid_percentage_by_state.png 
-    -covid_plot_with_diagnostics.png
-    -graphing.ipynb
-    -interactive_new_cases_by_state.html
-    -recovered_rate_map.htl
-    -results.txt
-    -scatter_plot.png 
+    - covid_percentage_by_state.png 
+    - covid_plot_with_diagnostics.png
+    - graphing.ipynb
+    - interactive_new_cases_by_state.html
+    - recovered_rate_map.htl
+    - results.txt
+    - scatter_plot.png
 3. src:
     -__pycache__
     -utils
