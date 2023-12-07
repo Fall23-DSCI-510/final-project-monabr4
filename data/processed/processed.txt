@@ -1,34 +1,55 @@
-COVID-19 (Malaysia)State Level Cases were extracted from an API:
 
-Link: https://covid-19.samsam123.name.my/api.html
+The collection and cleaning of the data sets process decsription can be found in raw.txt.
+The files in this folder are the cleaned files that are used graphing.ipynb (results>graphing.ipynb)
 
-The loading_to_csv.ipynb contains the code from the API extraction.
- Upon extraction amd cleaning, the data was converted into a CSV file for data analysis. 
+Codebook: 
 
- Below are the CSV files that were made (stored: data>processed):
-
-
-    - Johor.csv 
-    - Kedah.csv
-    - Kelantan.csv
-    - Melaka.csv
-    - Negeri_Sembilan.csv
-    - Pahang.csv
-    - Perak.csv
-    - Perlis.csv
-    - Pulau Pinang.csv
-    - Sabah.csv
-    - Sarawak.csv
-    - Selangor.csv
-    - Terengganu.csv
-    - W_P_Kuala Lumpur.csv
-    - W_P_Labuan.csv **** REMOVED because this state was not in the shapefile.
-    - W_P_Putrajaya.csv
+final_covid_data.csv
+- Date: Date
+- State: State Name
+- cases_new: Number of new COVID-19 cases reported
+- cases_recovered: Number of individuals who have recovered from COVID-19
+- cases_active: Number of currently active COVID-19 cases
+- cases_child: Number of COVID-19 cases in the child age group
+- cases_adolescent: Number of COVID-19 cases in the adolescent age group
+- cases_adult: Number of COVID-19 cases in the adult age group
+- cases_elderly: Number of COVID-19 cases in the elderly age group
+- population: Total population of the state
+- cases_new_per_capita: New COVID-19 cases per capita (cases_new/population)
+- cases_recovered_per_capita: Recovered COVID-19 cases per capita (cases_recovered/population)
+- cases_active_per_capita: Active COVID-19 cases per capita (cases_active/population)
 
 
-All CSV files above were merged to get the total COVID-19 in Malaysia cases by state
-between January 25, 2020 to January 25, 2023. The merged data is stored as merged_data.csv.
 
-Merged_data.csv will be used to for data analysis.
+final_rate_data.geojson
+This text file contains information related to COVID-19 cases in specific regions. Each line represents a region with associated properties.
+
+Properties:
+- id: Unique identifier for the region.
+- name: Name of the region.
+- density: Population density of the region.
+- path: Path or location of the region.
+- cases_new: Number of new COVID-19 cases reported.
+- cases_recovered: Number of individuals who have recovered from COVID-19.
+- percent_recovered: Percentage of recovered cases.
+- percent_not_recovered: Percentage of cases not recovered.
+- state: State or region name.
+- total: Total number of COVID-19 cases.
+- normalized_total: Normalized total cases per capita.
+- percentage_living: Percentage of the population with COVID-19.
+
+Example Entry:
+id: 5871
+name: W.P. Kuala Lumpur
+density: 0
+path: /world/Malaysia/W.P. Kuala Lumpur
+cases_new: 467824
+cases_recovered: 464447
+percent_recovered: 99.28
+percent_not_recovered: 0.72
+state: W.P. Kuala Lumpur
+total: 1773700
+normalized_total: 5.43
+percentage_living: 5.43
 
 

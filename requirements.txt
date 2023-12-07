@@ -1,15 +1,65 @@
-Required libraries:
-
-import requests
-from datetime import datetime, timedelta
-import pandas as pd
-import json
-import csv 
-import folium
-
-pip install -U kaleido
+#This file lists all the external libraries  used in this project.
 
 
+#Required libraries:
 
-This file lists all the external libraries you have used in your project.
-You can create this file manually or use the following commands in your virtual env:
+
+#Required for "merged_state_data.ipynb"
+#import pandas as pd
+
+
+#Required for loading_to_csv.ipynb
+#import requests
+#from datetime import datetime, timedelta
+#import pandas as pd
+
+datetime==5.3
+requests== 2.31.0
+
+
+#Required for loading_shaprfile.ipynb 
+#import requests
+#import json
+#import csv 
+#import folium
+#import geopandas as gpd
+#import pandas as pd
+#import matplotlib.pyplot as plt
+#import seaborn as sns
+
+
+#Required for "graphing.pytnb":
+#import pandas as pd
+#import matplotlib.pyplot as plt
+#import seaborn as sns
+#from scipy.stats import linregress, pearsonr, shapiro
+#from statsmodels.stats.diagnostic import het_breuschpagan
+#import geopandas as gpd
+#import plotly.express as px
+#import folium
+#import statsmodels.api as sm
+#from folium import plugins
+#from scipy.stats import probplot, spearmanr
+
+pandas==2.1.3
+matplotlib==3.8.1
+seaborn==0.13.0
+scipy==1.11.4
+geopandas==0.14.1
+plotly==5.18.0
+folium==0.15.0
+statsmodels==0.14.0
+
+
+#To view which version is running on your computer: 
+#pip3 show <package>
+#pip3 install -U kaleido
+
+#To install requirements
+#pip3 install -r requirements.txt
+
+
+
+
+
+

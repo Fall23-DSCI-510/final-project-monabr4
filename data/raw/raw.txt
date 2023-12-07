@@ -1,4 +1,51 @@
 
-The loading_to_csv.ipynb contains all the raw data for COVID-19 cases in Malaysia for each state. 
-All the raw data was processed and expored to a csv. The csv files can be found data>processed>state_csv_files.
+**Note** Do NOT run the files in the raw folder. Manual manipulation was done and will not output graphs. 
+Use static data that can be found in the data>processed folder.
 
+COVID-19 (Malaysia)State Level Cases were extracted from an API:
+
+Covid Cases By State: https://covid-19.samsam123.name.my/api.html
+
+
+The loading_to_csv.ipynb contains the code from the API extraction.
+ Upon extraction and cleaning, the data was converted into a CSV file for data analysis. 
+
+ Below are the CSV files that were made. These files are stored raw>exported_statis_csv_shapefile>STATES_CSV :
+
+    - Johor.csv 
+    - Kedah.csv
+    - Kelantan.csv
+    - Melaka.csv
+    - Negeri_Sembilan.csv
+    - Pahang.csv
+    - Perak.csv
+    - Perlis.csv
+    - Pulau Pinang.csv
+    - Sabah.csv
+    - Sarawak.csv
+    - Selangor.csv
+    - Terengganu.csv
+    - W_P_Kuala Lumpur.csv
+    - W_P_Labuan.csv **** REMOVED because this state was not in the shapefile.
+    - W_P_Putrajaya.csv
+
+
+All CSV files above were merged to get the total COVID-19 in Malaysia cases by state
+between January 25, 2020 to January 25, 2023 in the merged_sate_data.ipynb. The merged data is stored as final_covid_data.csv.
+
+The final_covid_data.csv can be located: data>processed>final_covid_data.csv
+
+
+Population of Malaysia: https://cartographyvectors.com/map/1477-malaysia-with-regions
+The population of Malaysia was extracted through an API. It was exported into a csv file called cleaned_population_data.csv.
+
+Malaysia ShapeFile: https://cartographyvectors.com/map/1477-malaysia-with-regions
+The shapefile was extracted in the "loading_shapefile.ipynb". It was exported as[static]malaysia.geojson.
+
+Shapefiles and CSV files were merged in the merged_state_data.ipynb to create final_rate_data.geojson.
+
+The cleaned filed are located data>processed
+- final_covid_data.csv
+- final_rate_data.geojson 
+
+Further information on the cleaned files can be found in processed.txt.

@@ -1,18 +1,23 @@
 Results Description: 
 
 
-graphing.ipynb 
-
-
-
-covid_percentage_by_state.png
 
 
 
 
-interactive_new_cases_by_state.html
+
+graphing.ipynb:
+
+
+
+covid_percentage_by_state.png:
 
 
 
 
-recovered_rate_map.html
+interactive_new_cases_by_state.html:
+
+
+
+
+recovered_rate_map.html:
