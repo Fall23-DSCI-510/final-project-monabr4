@@ -1,1 +1,18 @@
-Store all you results and reports in this directory.
+Results Description: 
+
+
+graphing.ipynb 
+
+
+
+covid_percentage_by_state.png
+
+
+
+
+interactive_new_cases_by_state.html
+
+
+
+
+recovered_rate_map.html
