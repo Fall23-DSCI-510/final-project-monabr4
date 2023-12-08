@@ -87,7 +87,6 @@ This data project is divided into three folders:
   - [statsmodels](https://www.statsmodels.org/stable/index.html) version 0.14.0
 
   
-
 ## Installation
 
 To use this project, follow the steps below:
@@ -126,21 +125,21 @@ Make sure to change the data directory to match your files in the `graphing.ipyn
 5. **Explore the Results:**
    - After running the project, explore the generated results and visualizations.
 
-**Note:** Ensure that you have the necessary dependencies installed. You can install them using the following:
+ **Note:** Ensure that you have the necessary dependencies installed. You can install them using the following:
 
-```bash
-pip install -r requirements.txt 
+    ```bash
+    pip install -r requirements.txt
+    ```
+## Python Version 
 
-
-Python Version
 
 The analysis was conducted using Python version 3.11.5 (main, Aug 24 2023, 15:09:32) [Clang 14.0.0 (clang-1400.0.29.202)].
 
-Note
+## Note 
 
 Upon extraction from API and shapefiles, data cleaning was done in Data > Raw. Do NOT run the code in the "raw" folder. Manual data cleaning was performed. The final cleaned datasets are `final_covid_data.csv` and `final_raw_data.geojson` files. These files are used in the `graphing.ipynb` folder to compute the graphs. All the graphed results are located in the results folder. More information about how each folder is used can be found in `processed.txt`, `raw.txt`, and `results.txt`.
 
-Report 
+## Note 
 
 The written report can be found in `malaysia_covid.pdf`.
 
