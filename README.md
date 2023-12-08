@@ -1,9 +1,9 @@
 # COVID-19 in Malaysia
 
+Author's Note: Please read these docuements in order for set up and understanding the structure of the project and data --> (1)README.md (2)raw.txt (3)processed.txt 
+
 ## Introduction
-
-Author's Note: Please read these docuements in order for set up and understanding the structure of the project and data --> (1)README.md (2)raw.txt (3)processed.txt  
-
+ 
 
 The analysis focuses on understanding regional disparities in COVID-19 incidence rates across different states (13 states) in Malaysia and explores the impact of the pandemic on various regions in terms of cases and recoveries. It aims to uncover significant variations in how states have been affected. Additionally, the analysis takes a closer look at the correlation between population density in different states and the rate of COVID-19 transmission. By examining how states with diverse population densities have managed the spread of the virus, the analysis aims to uncover insights into the relationship between population density and the pandemic's impact in Malaysia.
 

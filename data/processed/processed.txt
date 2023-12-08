@@ -34,7 +34,7 @@ Properties:
 - percent_not_recovered: Percentage of cases not recovered.
 - state: State or region name.
 - total: Total number of COVID-19 cases.
-- normalized_total: Normalized total cases per capita.
+- normalized_total: Percentage of the population with COVID-19. (copy)
 - percentage_living: Percentage of the population with COVID-19.
 
 Example Entry:
