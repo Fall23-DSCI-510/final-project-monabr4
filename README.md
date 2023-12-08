@@ -1,6 +1,6 @@
 # COVID-19 in Malaysia
 
-Author's Note: Please read these docuements in order for set up and understanding the structure of the project and data --> (1)README.md (2)raw.txt (3)processed.txt 
+Author's Note: Please read these docuements in order for to set up and understand the structure of the project and data --> (1)README.md (2)raw.txt (3)processed.txt 
 
 ## Introduction
  
