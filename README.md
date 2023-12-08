@@ -5,7 +5,7 @@ Author's Note: Please read these docuements in order for to set up and understan
 ## Introduction
  
 
-The analysis focuses on understanding regional disparities in COVID-19 incidence rates across different states (13 states) in Malaysia and explores the impact of the pandemic on various regions in terms of cases and recoveries. It aims to uncover significant variations in how states have been affected. Additionally, the analysis takes a closer look at the correlation between population density in different states and the rate of COVID-19 transmission. By examining how states with diverse population densities have managed the spread of the virus, the analysis aims to uncover insights into the relationship between population density and the pandemic's impact in Malaysia.
+The analysis focuses on understanding regional disparities in COVID-19 incidence rates across different states (13 states) in Malaysia and explores the impact of the pandemic on various regions in terms of cases and recoveries. It aims to uncover significant variations in how states have been affected. Additionally, the analysis takes a closer look at the correlation between population density in different states and the rate of COVID-19 transmission. By examining how states with diverse population densities have managed the spread of the virus, the analysis aims to find insights into the relationship between population density and the pandemic's impact in Malaysia.
 
 
 
@@ -71,8 +71,8 @@ This data project is divided into three folders:
 3. **Src:**
     - `__pycache__`
     - `utils`
-- `malaysia_covid.pdf`
 - `README.md`
+- `malaysia_covid.pdf`
 - `requirements.txt`
 
   ## Dependencies
@@ -86,7 +86,52 @@ This data project is divided into three folders:
   - [folium](https://python-visualization.github.io/folium/) version 0.15.0
   - [statsmodels](https://www.statsmodels.org/stable/index.html) version 0.14.0
 
-  ## Python Version
+  
+
+## Installation
+
+To use this project, follow the steps below:
+
+1. **Clone the Repository:**
+   - Clone this repository to your local machine using the following command:
+
+     ```bash
+     git clone https://github.com/your-username/your-repository.git
+     ```
+
+2. **Navigate to the Project Directory:**
+   - Change your current directory to the project's root folder:
+
+     ```bash
+     cd your-repository
+     ```
+
+3. **Data Loading:**
+   - During the cleaning process, significant data manipulation and direct changes to the CSV files were made for merging data files.
+   - When running the project, load static data from the following locations `graphing.ipynb`:
+     - `data/processed/final_covid_data.csv`
+     - `data/processed/final_rate_data.geojson`
+
+Make sure to change the data directory to match your files in the `graphing.ipynb` file. 
+
+4. **Run the Project:**
+   - Execute the `graphing.ipynb`.
+
+     Example command:
+
+     ```bash
+     python graphing.ipynb
+     ```
+
+5. **Explore the Results:**
+   - After running the project, explore the generated results and visualizations.
+
+**Note:** Ensure that you have the necessary dependencies installed. You can install them using the following:
+
+```bash
+pip install -r requirements.txt
+
+## Python Version
 
 The analysis was conducted using Python version 3.11.5 (main, Aug 24 2023, 15:09:32) [Clang 14.0.0 (clang-1400.0.29.202)].
 
