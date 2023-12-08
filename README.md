@@ -132,17 +132,15 @@ Make sure to change the data directory to match your files in the `graphing.ipyn
 pip install -r requirements.txt 
 
 
-## Python Version 
-
+Python Version
 
 The analysis was conducted using Python version 3.11.5 (main, Aug 24 2023, 15:09:32) [Clang 14.0.0 (clang-1400.0.29.202)].
 
-## Note
+Note
 
-  Upon extraction from API and shapefiles, data cleaning was done in `Data > Raw`. **Do NOT run the code in the "raw" folder.** Manual data cleaning was performed. The final cleaned datasets are `final_covid_data.csv` and `final_raw_data.geojson`  file. These files are used in the `graphing.ipynb` folder to compute the graphs. All the graphed results are located in the `results` folder. More information about how each folder is used can be found in `processed.txt`, `raw.txt`, and `results.txt`.
+Upon extraction from API and shapefiles, data cleaning was done in Data > Raw. Do NOT run the code in the "raw" folder. Manual data cleaning was performed. The final cleaned datasets are `final_covid_data.csv` and `final_raw_data.geojson` files. These files are used in the `graphing.ipynb` folder to compute the graphs. All the graphed results are located in the results folder. More information about how each folder is used can be found in `processed.txt`, `raw.txt`, and `results.txt`.
 
-
-## Report 
+Report 
 
 The written report can be found in `malaysia_covid.pdf`.
 
