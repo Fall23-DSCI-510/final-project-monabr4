@@ -1,23 +1,72 @@
 Results Description: 
 
 
+All the code for the graphs can be found in graphing.ipynb:
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
+covid_percentage_by_state.png: Percentage of COVID-19 Cases by State and Age Group
+Age is classified as Child → 12  and under | Adolescent → 13-17 | Adult → 18-59  | Elderly →  60+ 
+Findings: The states are ranked (bottom to top) from most populated state to the least populated state.
+The most populated state is Selangor with 11.6% of the new covid cases are children, 5.7% are adolescents,
+75.6% are adults and 7% are the elderly. The least populated state is W.P. Putrajaya with 16.6% of the new
+covid cases being children, 6.5% being adolescent, 73.5% being adults, and 3.4% being elderly. The least
+populated state has the lowest percentage of new cases infecting the elder population. 
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
+interactive_new_cases_by_state.html: COVID-19 Cases Over Time for Each State
+Since this is an interactive plot (plotly), the states can be selected to view the relationship of COVID-19 
+cases over time for each state. Between  January 25, 2020 to January 25, 2023, there seems to be 2 major peaks. 
+The first major peak August 6, 2021 with reported  8792 new cases and the second peak March 24, 2022 with 
+reported  11,622 new cases. These two peaks happen in Selangor. After  September 6, 2020,  the number of reported
+ new Covid cases started to increase rapidly. This could be due to several reasons: testing availability, people
+  avoiding the hospital,miss information around Covid. By May 2023, the number of new cases started to drop. 
+  This could be due to lower testing rates. 
 
-graphing.ipynb:
+--------------------------------------------------------------------------------------------------------------------------------------------
 
+recovered_rate_map.html: COVID-19 Information
+This is a static image of the recovered_rate_map.html. The interactive map can be used to see each state's name, 
+total cases, total recovered cases, percent recovered, and percent not recovered. Since death data is not included, 
+the percent not recovered can be due to death or  lost to follow up. According to the visualization, 1.9% (highest
+percent not recovered) of those total Covid cases in Melaka did not recover. About 0.54% of the people in Kelantan
+did not recover from Covid. W.P Kuala Lumpur, the capital, is surrounded by the most populous state Selangor (makes up
+ 20.02% of the population in Malaysia). Their recovery rate of  0.73% is average among other states. 
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-covid_percentage_by_state.png:
+covid_plot_diagnostics.png: residual vs. fitted plot and QQ-plot
+The residual vs. fitted graph and Q-Q plot suggest that there is a violation of assumptions. There are also only 13 data points.
+ Non-parametric tests should be used. Spearman’s Correlation is a measure of association between for nonparametric data.
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
+scatter_plot: Population Density vs. COVID-19 Transmission Rate by state
+The spearman's correlation coefficient between population density and COVID transmission rate is approximately -0.2071 (p-value = 0.4588).
+There is a weak negative correlation between the two variables. Given the p-value is greater than 0.05, the correlation
+is not statically significant. There is insufficient evidence to conclude that the observed correlation is different from 0.
+Population density is not a strong predictor of COVID-19 transmission rates. Further investigation is needed to understand 
+the relationship between population density an COVID transmission rates. 
 
+    Spearman's Correlation Results:
+    Spearman's Correlation Coefficient: -0.2071428571428571
+    P-value: 0.4588428049634703
+    The relationship is not statistically significant.
 
-interactive_new_cases_by_state.html:
+--------------------------------------------------------------------------------------------------------------------------------------------
 
+Conclusion:
 
+The examination of COVID-19 cases across different age groups showed patterns, with populous states like Selangor showcasing high covid cases among adults.
+Selangor is the state that surrounds the state of W.P. Kuala Lumpur (the capital). Meanwhile, W.P. Putrajaya, the least populated state, exhibits a lower
+impact on the elderly population. The interactive plot tracking incidence rates reveals high covid rates in Selangor. Moreover, an analysis of disparities 
+in recoveries across states shows regional differences, with Melaka showcasing a higher percentage of cases not recovered. For those who did not recover, 
+it is hard to tell if those people were lost to follow up or had died due to the Covid infection.
 
-
-recovered_rate_map.html:
+In tandem, an investigation into the correlation between population density and COVID-19 transmission rates introduces additional layers of understanding.
+Linear regression assumptions, although met for normality, reveal violations in linearity and homoscedasticity, prompting a shift to non-parametric testing.
+Spearman's Correlation Coefficient shows a weak negative correlation between population density (population in each state) and transmission rates, yet the
+lack of statistical significance implies that population density alone does not serve as a predictor for covid-rates. Although Selangor, the most populous
+state with the highest cases of Covid, there is statistical evidence that suggest that population density is not associated with covid rates. Further data and
+contextual analysis needs to understand why covid rates increase in some states as opposed to others.

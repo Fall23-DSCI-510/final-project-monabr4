@@ -2,6 +2,8 @@
 **Note** Do NOT run the files in the raw folder. Manual manipulation was done and will not output graphs. 
 Use static data that can be found in the data>processed folder.
 
+Data Cleaning 
+
 COVID-19 (Malaysia)State Level Cases were extracted from an API:
 
 Covid Cases By State: https://covid-19.samsam123.name.my/api.html
@@ -36,7 +38,7 @@ between January 25, 2020 to January 25, 2023 in the merged_sate_data.ipynb. The 
 The final_covid_data.csv can be located: data>processed>final_covid_data.csv
 
 
-Population of Malaysia: https://cartographyvectors.com/map/1477-malaysia-with-regions
+Population of Malaysia: https://documenter.getpostman.com/view/16605343/Tzm8GG7u
 The population of Malaysia was extracted through an API. It was exported into a csv file called cleaned_population_data.csv.
 
 Malaysia ShapeFile: https://cartographyvectors.com/map/1477-malaysia-with-regions

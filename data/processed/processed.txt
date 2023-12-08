@@ -20,7 +20,6 @@ final_covid_data.csv
 - cases_active_per_capita: Active COVID-19 cases per capita (cases_active/population)
 
 
-
 final_rate_data.geojson
 This text file contains information related to COVID-19 cases in specific regions. Each line represents a region with associated properties.
 

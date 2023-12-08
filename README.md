@@ -2,9 +2,11 @@
 
 ## Introduction
 
+
 The analysis focuses on understanding regional disparities in COVID-19 incidence rates across different states (13 states) in Malaysia and explores the impact of the pandemic on various regions in terms of cases and recoveries. It aims to uncover significant variations in how states have been affected. Additionally, the analysis takes a closer look at the correlation between population density in different states and the rate of COVID-19 transmission. By examining how states with diverse population densities have managed the spread of the virus, the analysis aims to uncover insights into the relationship between population density and the pandemic's impact in Malaysia.
 
 ## Research Questions
+
 
 
 ### Regional Disparities:
@@ -86,7 +88,7 @@ The analysis was conducted using Python version 3.11.5 (main, Aug 24 2023, 15:09
 
   ## Note
 
-Upon extraction from API and shapefiles, data cleaning was done in `Data > Raw`. **Do NOT run the code in the "raw" folder.** Manual data cleaning was performed. The final cleaned datasets are "final_covid_data.csv" and "final_raw_data.geojson" file. These files are used in the "graphing.ipynb" folder to compute the graphs. All the graphed results are located in the `results` folder. More information about how each folder is used can be found in `processed.txt`, `raw.txt`, and `results.txt`.
+Upon extraction from API and shapefiles, data cleaning was done in `Data > Raw`. **Do NOT run the code in the "raw" folder.** Manual data cleaning was performed. The final cleaned datasets are `final_covid_data.csv` and `final_raw_data.geojson`  file. These files are used in the `graphing.ipynb` folder to compute the graphs. All the graphed results are located in the `results` folder. More information about how each folder is used can be found in `processed.txt`, `raw.txt`, and `results.txt`.
 
 
 
