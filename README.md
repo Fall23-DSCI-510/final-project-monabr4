@@ -7,7 +7,6 @@ The analysis focuses on understanding regional disparities in COVID-19 incidence
 ## Research Questions
 
 
-
 ### Regional Disparities:
 
 - How do COVID-19 incidence rates carry across different states in Malaysia?
@@ -69,8 +68,8 @@ This data project is divided into three folders:
 - `README.md`
 - `requirements.txt`
 
+  ## Dependencies
 
-- **Dependencies**
   - [pandas](https://pandas.pydata.org/) version 2.1.3
   - [matplotlib](https://matplotlib.org/) version 3.8.1
   - [seaborn](https://seaborn.pydata.org/) version 0.13.0
@@ -84,6 +83,7 @@ This data project is divided into three folders:
 
 The analysis was conducted using Python version 3.11.5 (main, Aug 24 2023, 15:09:32) [Clang 14.0.0 (clang-1400.0.29.202)].
 
+  ## Note
 
 Upon extraction from API and shapefiles, data cleaning was done in `Data > Raw`. **Do NOT run the code in the "raw" folder.** Manual data cleaning was performed. The final cleaned datasets are "final_covid_data.csv" and "final_raw_data.geojson" file. These files are used in the "graphing.ipynb" folder to compute the graphs. All the graphed results are located in the `results` folder. More information about how each folder is used can be found in `processed.txt`, `raw.txt`, and `results.txt`.
 
