@@ -71,7 +71,7 @@ This data project is divided into three folders:
 3. **Src:**
     - `__pycache__`
     - `utils`
-
+- `malaysia_covid.pdf`
 - `README.md`
 - `requirements.txt`
 
@@ -95,7 +95,9 @@ The analysis was conducted using Python version 3.11.5 (main, Aug 24 2023, 15:09
 Upon extraction from API and shapefiles, data cleaning was done in `Data > Raw`. **Do NOT run the code in the "raw" folder.** Manual data cleaning was performed. The final cleaned datasets are `final_covid_data.csv` and `final_raw_data.geojson`  file. These files are used in the `graphing.ipynb` folder to compute the graphs. All the graphed results are located in the `results` folder. More information about how each folder is used can be found in `processed.txt`, `raw.txt`, and `results.txt`.
 
 
+  ## Report 
 
+The written report can be found in `malaysia_covid.pdf`.
 
 
 
