@@ -51,4 +51,6 @@ total: 1773700
 normalized_total: 5.43
 percentage_living: 5.43
 
+*normalized_total and percentage_living are copies. 
+
 

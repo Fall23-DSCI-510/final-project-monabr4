@@ -1,6 +1,10 @@
 # COVID-19 in Malaysia
 
-Author's Note: Please read these docuements in order for to set up and understand the structure of the project and data --> (1)README.md (2)raw.txt (3)processed.txt 
+Author's Note: Please read these docuements in order for to set up and understand the structure of the project and data. 
+
+1. README.md
+2. raw.txt 
+3. processed.txt 
 
 ## Introduction
  
@@ -124,6 +128,7 @@ Make sure to change the data directory to match your files in the `graphing.ipyn
 
 5. **Explore the Results:**
    - After running the project, explore the generated results and visualizations.
+   - Visualizations can be founded in the results folder.
 
  **Note:** Ensure that you have the necessary dependencies installed. You can install them using the following:
 

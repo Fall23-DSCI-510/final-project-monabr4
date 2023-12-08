@@ -4,12 +4,12 @@ Use static data that can be found in the data>processed folder.
 
 Data Cleaning 
 
-COVID-19 (Malaysia)State Level Cases were extracted from an API:
+Step 1: COVID-19 (Malaysia)State Level Cases were extracted from an API:
 
 Covid Cases By State: https://covid-19.samsam123.name.my/api.html
 
 
-The loading_to_csv.ipynb contains the code from the API extraction.
+Steph 2: The loading_to_csv.ipynb contains the code from the API extraction.
  Upon extraction and cleaning, the data was converted into a CSV file for data analysis. 
 
  Below are the CSV files that were made. These files are stored raw>exported_statis_csv_shapefile>STATES_CSV :
@@ -33,10 +33,12 @@ The loading_to_csv.ipynb contains the code from the API extraction.
 
 
 All CSV files above were merged to get the total COVID-19 in Malaysia cases by state
-between January 25, 2020 to January 25, 2023 in the merged_sate_data.ipynb. The merged data is stored as final_covid_data.csv.
+between January 25, 2020 to January 25, 2023 in the merged_sate_data.ipynb. The data cleaning process includes mutating columns,
+changing column names, and merging data. The merged data is stored as final_covid_data.csv.
 
 The final_covid_data.csv can be located: data>processed>final_covid_data.csv
 
+Step 3: Merging Spatial Data 
 
 Population of Malaysia: https://documenter.getpostman.com/view/16605343/Tzm8GG7u
 The population of Malaysia was extracted through an API. It was exported into a csv file called cleaned_population_data.csv.
@@ -44,10 +46,15 @@ The population of Malaysia was extracted through an API. It was exported into a 
 Malaysia ShapeFile: https://cartographyvectors.com/map/1477-malaysia-with-regions
 The shapefile was extracted in the "loading_shapefile.ipynb". It was exported as[static]malaysia.geojson.
 
+Changes to these files: 
+- Column name changes 
+- Rates were calculated as (# of new cases)/ (total state population)
+
 Shapefiles and CSV files were merged in the merged_state_data.ipynb to create final_rate_data.geojson.
+
 
 The cleaned filed are located data>processed
 - final_covid_data.csv
 - final_rate_data.geojson 
 
-Further information on the cleaned files can be found in processed.txt.
+Further information on the cleaned (ready for processing) files can be found in processed.txt.
