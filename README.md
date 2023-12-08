@@ -9,7 +9,7 @@ The analysis focuses on understanding regional disparities in COVID-19 incidence
 
 ### Regional Disparities:
 
-- How do COVID-19 incidence rates carry across different states in Malaysia?
+- How do COVID-19 incidence rates vary across different states in Malaysia?
 - Are there significant disparities in the impact of the pandemic on various regions in terms of new cases and case recovery?
 
 ### Population Density and Transmission
@@ -44,10 +44,11 @@ This data project is divided into three folders:
     - **Raw:** API extraction and CSV conversions.
         - `exported_statis_csv_shapefile`
             - `STATES_CSV`
+                - `All 13 state CSV Files `
             - `[static]malaysia_states.geojson`
             - `cleaned_population.csv`
-            - `loading_shapefile.ipynb`
-            - `loading_to_csv_ipynb`
+        -`loading_shapefile.ipynb`
+        -`loading_to_csv_ipynb`
         - `raw.txt`
         - `state_covid_data.csv`
         - `final_covid_data.csv`
