@@ -6,6 +6,7 @@ All the code for the graphs can be found in graphing.ipynb:
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 covid_percentage_by_state.png: Percentage of COVID-19 Cases by State and Age Group
+
 Age is classified as Child → 12  and under | Adolescent → 13-17 | Adult → 18-59  | Elderly →  60+ 
 Findings: The states are ranked (bottom to top) from most populated state to the least populated state.
 The most populated state is Selangor with 11.6% of the new covid cases are children, 5.7% are adolescents,
@@ -16,6 +17,12 @@ populated state has the lowest percentage of new cases infecting the elder popul
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 interactive_new_cases_by_state.html: COVID-19 Cases Over Time for Each State
+
+Interactive Features: 
+-Select States 
+-Zoom In and Out 
+-Take Screenshots of Output 
+
 Since this is an interactive plot (plotly), the states can be selected to view the relationship of COVID-19 
 cases over time for each state. Between  January 25, 2020 to January 25, 2023, there seems to be 2 major peaks. 
 The first major peak August 6, 2021 with reported  8792 new cases and the second peak March 24, 2022 with 
@@ -27,6 +34,11 @@ reported  11,622 new cases. These two peaks happen in Selangor. After  September
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 recovered_rate_map.html: COVID-19 Information
+
+Interactive Features: 
+-Hover over the states get more information 
+-Least populated state (White) to most populated state (Purple)
+
 This is a static image of the recovered_rate_map.html. The interactive map can be used to see each state's name, 
 total cases, total recovered cases, percent recovered, and percent not recovered. Since death data is not included, 
 the percent not recovered can be due to death or  lost to follow up. According to the visualization, 1.9% (highest
@@ -37,12 +49,14 @@ did not recover from Covid. W.P Kuala Lumpur, the capital, is surrounded by the 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 covid_plot_diagnostics.png: residual vs. fitted plot and QQ-plot
+
 The residual vs. fitted graph and Q-Q plot suggest that there is a violation of assumptions. There are also only 13 data points.
  Non-parametric tests should be used. Spearman’s Correlation is a measure of association between for nonparametric data.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 scatter_plot: Population Density vs. COVID-19 Transmission Rate by state
+
 The spearman's correlation coefficient between population density and COVID transmission rate is approximately -0.2071 (p-value = 0.4588).
 There is a weak negative correlation between the two variables. Given the p-value is greater than 0.05, the correlation
 is not statically significant. There is insufficient evidence to conclude that the observed correlation is different from 0.
